@@ -26,4 +26,4 @@ jobs:
       with:
         submodules: true
     - name: Build the Docker compose
-      run: docker build . --file Dockerfile --tag logflow_app:$(date +%s)
+      run: docker compose build
