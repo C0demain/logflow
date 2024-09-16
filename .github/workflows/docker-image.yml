@@ -13,7 +13,17 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+      DB_NAME: api
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      DB_ADMIN_EMAIL: admin@gmail.com
+      SECRET_JWT: logflowbackend
+      DB_HOST: postgres
+
     steps:
     - uses: actions/checkout@v4
+      with:
+        submodules: true
     - name: Build the Docker compose
       run: docker compose up
