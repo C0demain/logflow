@@ -43,31 +43,63 @@ Este desafio, proposto pela disciplina de Estrutura de Dados e Engenharia de Sof
 
 # ➯ Tecnologias utilizadas
 
-- NodeJS
-
-- NestJS (Express)
-
-- React
-
-- Next.js
-
-- TypeScript 
-
-- PostgreSQL
-
-- Swagger
+<div style="display: grid; grid-template-columns: 60px 60px 60px 60px; grid-template-rows: 80px 80px; grid-gap: 30px;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="50"/>
+            NestJS
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" width="50"/>
+            Node.js
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" width="50"/>
+            Swagger
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg" width="50"/>
+            PostgresSQL
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="50"/>
+            Next.js
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50"/>
+            React
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="50"/>
+            Tailwind CSS
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" width="50"/>
+            Typescript
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg" width="50"/>
+            Docker
+        </div>
+    </div>
 
 
   
 # ➯ Outras Ferramentas utilizadas
 
-  - Excel
-    
-  - Trello
-    
-  - Figma
-
-  - Postman
+<div style="display: grid; grid-template-columns: 60px 60px 60px 60px; grid-template-rows: 80px 80px; grid-gap: 30px;">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-plain.svg" width="50"/>
+            Trello
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="50"/>
+            Figma
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50"/>
+            Postman
+        </div>
+    </div>
 
 # ➯ Utilização da metodologia Scrum no Projeto
 
