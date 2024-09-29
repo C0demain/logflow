@@ -19,7 +19,8 @@ Este desafio, proposto pela disciplina de Estrutura de Dados e Engenharia de Sof
 6. Implementação de Aplicação Orientada a Objetos: Desenvolver a aplicação utilizando conceitos de Orientação a Objetos e ORM (Object-Relational Mapping).
 
 # ➯ Planejamento de Entregas
-- Em construção 🚧
+![planejamento de entregas](https://github.com/user-attachments/assets/0f18dd48-e817-4c68-9e50-c938cce790ee)
+
 
 # ➯ Requisitos funcionais
 
