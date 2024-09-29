@@ -1,125 +1,56 @@
-# ➯ Explicação do Projeto  
+
+![Logflow](https://github.com/user-attachments/assets/4809dc55-8849-444f-9168-0c413b6091e2)
+
+## ❔ Explicação do projeto  
 
 O desafio do quarto semestre consiste no desenvolvimento de uma sistema, chamado Logflow, que permita o acompanhamento de diversas ordens de serviços em diferentes setores e etapas durante o atendimento da empresa JJM Log
 
-## Objetivos Acadêmicos
+## 👀 Demonstração do produto
+➯ [Vídeo de demonstração](https://www.youtube.com/watch?v=8bnKvWPvFwc)
 
-Este desafio, proposto pela disciplina de Estrutura de Dados e Engenharia de Software na Fatec São José dos Campos, visa alcançar os seguintes objetivos:
+## 📋 Requisitos
+#### ➯ Funcionais
+| Nº do requisito | Requisito do Parceiro                                                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| RF1                 | Sistema de fluxo de trabalho de Ordens de Serviço, onde seja possível acompanhar o andamento e cumprimento de tarefas relacionadas                                                                       |
+| RF2                 | Portal do funcionário que permita acessar informações importantes, visualizar tarefas atribuídas subir documentos como holerits, atestados, etc.                                                                                                                           |
+| RF3                 | Desenvolver um Dashboard de indicadores de desempenho para cada departamento (operacional; comercial; financeiro)                               |
+| RF4                 | Desenvolver um index(base de dados) onde os setores da empresa possam acessar docs e planilhas importantes online                                                 |
+| RF5                 | Desenvolver de uma base de dados para roteirização de viagens a partir da localização dos agentes existentes( para prospectar clientes em regiões novas) |
+| RF6                 | Desenvolver um sistema de agenda, onde possa ser marcado compromissos e prazos para o cumprimento de tarefas e ordens de serviço                                                                                                                                          |
+| RF7                 | Desenvolver um chat onde funcionários possam se comunicar dentro do sistema                                                                                                                                       |
 
-1. Levantamento e Registro de Requisitos: Utilizar técnicas de métodos ágeis e tradicionais para identificar e documentar os requisitos do sistema.
+#### ➯ Não funcionais
+| Nº do Requisito | Requisito do Parceiro                                      |
+| ------------------- | ---------------------------------------------------------- |
+| RNF1                | Desenvolver uma base de dados externa                                      |
+| RNF2                | Application Programming Interface (API)                    |
+| RNF3                | Permitir acesso para computadores e aparelhos celulares, sem comprometimento de funcionalidades |
 
-2. Documentação DoR e DoD: Documentar adequadamente os critérios de Pronto (Definition of Ready - DoR) e os critérios de Concluído (Definition of Done - DoD).
+## 📅 Planejamento de Entregas
+![Cronograma de entregas](https://github.com/user-attachments/assets/1c817916-ba9b-40ab-9aa4-a6c9bb60ab3f)
 
-3. Modelagem de Processos de Negócio: Utilizar técnicas de VPC (Value Proposition Canvas) e BPMN (Business Process Model and Notation) para modelar os processos de negócio.
-
-4. Planejamento de Desenvolvimento de Software: Elaborar o Backlog de Produto e o Backlog de Sprint, planejando as etapas de desenvolvimento do software.
-
-5. Projeto de Arquitetura Lógica de Software: Projetar a arquitetura lógica da aplicação, assegurando a integração e a funcionalidade dos componentes.
-
-6. Implementação de Aplicação Orientada a Objetos: Desenvolver a aplicação utilizando conceitos de Orientação a Objetos e ORM (Object-Relational Mapping).
-
-# ➯ Planejamento de Entregas
-![planejamento de entregas](https://github.com/user-attachments/assets/0f18dd48-e817-4c68-9e50-c938cce790ee)
-
-
-# ➯ Requisitos funcionais
-
-- Desenvolver uma interface para upload de vendas. 
-
-- Calcular as comissões dos vendedores com base nos diferentes tipos de venda e nos planos de remuneração associados. 
-
-- Desenvolver um dashboard de comissões de vendas que apresente as informações de forma clara e intuitiva. 
-
-- Desenvolvimento de funcionalidades de filtragem e segmentação para os gráficos, permitindo aos usuários explorar os dados de comissões de vendas com mais detalhes. 
-
-- Implementação de gráficos e visualizações de dados para análise de desempenho de vendas. 
-
-# ➯ Requisitos não funcionais
-
-- Documentação API – Application Programming Interface. 
-
-- Modelagem de Banco de Dados ou Arquivo de dados. 
-
-- Interface responsiva e amigável para facilitar o acesso e a utilização do sistema em diferentes dispositivos e tamanhos de tela.
-
-# ➯ Tecnologias utilizadas
-
-<div style="display: grid; grid-template-columns: 60px 60px 60px 60px; grid-template-rows: 80px 80px; grid-gap: 30px;">
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="50"/>
-            NestJS
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" width="50"/>
-            Node.js
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" width="50"/>
-            Swagger
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg" width="50"/>
-            PostgresSQL
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="50"/>
-            Next.js
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="50"/>
-            React
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="50"/>
-            Tailwind CSS
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" width="50"/>
-            Typescript
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg" width="50"/>
-            Docker
-        </div>
-    </div>
+## 🧰 Tecnologias utilizadas
+- [Next.js](https://nextjs.org)
+- [React](https://react.dev)
+- [TailwindCSS](https://tailwindcss.com)
+- [DaisyUI](https://daisyui.com)
+- [NestJS](https://nestjs.com)
+- [Node.js](https://nodejs.org/pt)
+- [Typescript](https://www.typescriptlang.org)
+- [PostgresSQL](https://www.postgresql.org)
+- [Swagger](https://swagger.io)
+- [Docker](https://www.docker.com)
 
 
   
-# ➯ Outras Ferramentas utilizadas
-
-<div style="display: grid; grid-template-columns: 60px 60px 60px 60px; grid-template-rows: 80px 80px; grid-gap: 30px;">
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-plain.svg" width="50"/>
-            Trello
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="50"/>
-            Figma
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; width: 50px;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50"/>
-            Postman
-        </div>
-    </div>
-
-# ➯ Utilização da metodologia Scrum no Projeto
-
- Neste projeto, utilizamos a metodologia Scrum para organizar e gerenciar nosso trabalho de forma eficiente. Durante o desenvolvimento, seguimos os eventos do Scrum rigorosamente, mantendo uma comunicação constante através das Daily Scrums e ajustando nossos objetivos em resposta ao feedback nas Sprint Reviews. O Product Backlog foi mantido atualizado e priorizado pelo Product Owner, garantindo que estivéssemos sempre focados nas tarefas de maior valor. Ao final de cada Sprint, realizamos uma Sprint Retrospective para identificar áreas de melhoria e implementar mudanças para os próximos ciclos de desenvolvimento. Esta abordagem nos permitiu manter uma alta produtividade e adaptabilidade, entregando incrementos de produto de alta qualidade a cada Sprint.
-
-Scrum é uma metodologia ágil de gerenciamento de projetos, amplamente utilizada para desenvolvimento de software. Ela é projetada para oferecer uma abordagem iterativa e incremental, promovendo flexibilidade e rapidez na entrega de produtos. O Scrum é estruturado em torno de pequenos ciclos de desenvolvimento, chamados Sprints, que geralmente duram de duas a quatro semanas. Cada Sprint tem como objetivo entregar um incremento de produto potencialmente utilizável e revisado pelo cliente.
-
-## Artefatos do Scrum:
-- Product Backlog: Uma lista ordenada de tudo o que é conhecido para ser necessário no produto. É gerenciado pelo Product Owner e inclui histórias de usuário, melhorias, bugs e qualquer outro item necessário para o desenvolvimento do produto.
-
-- Sprint Backlog: Conjunto de itens do Product Backlog selecionados para serem trabalhados durante um Sprint, junto com um plano para entregá-los. Este é gerido pela equipe de desenvolvimento.
-
-- Incremento: A soma de todos os itens do Product Backlog completados durante um Sprint e os incrementos de todos os Sprints anteriores. No final de um Sprint, o novo incremento deve estar em um estado utilizável e atender à definição de pronto da equipe.
+## 🛠️ Outras Ferramentas utilizadas
+- [Trello](https://www.trello.com)
+- [Figma](https://www.figma.com)
+- [Postman](https://www.postman.com)
 
 
-# ➯ MVP Do produto
-- Em construção 🚧
-
-# 👨‍💻 Integrantes da Equipe
+## 👨‍💻 Integrantes da Equipe
 
 <div align="center">
   
