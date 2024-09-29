@@ -49,6 +49,22 @@ O desafio do quarto semestre consiste no desenvolvimento de uma sistema, chamado
 - [Figma](https://www.figma.com)
 - [Postman](https://www.postman.com)
 
+## Modelo de Banco de Dados
+
+<p align="center">
+  <img src="resources/database-model.png" alt="Modelo de Banco de Dados" />
+</p>
+
+O diagrama acima apresenta o modelo de banco de dados utilizado neste projeto. Ele foi gerado utilizando a ferramenta Vertabelo e é implementado com o PostgreSQL. As principais entidades incluem:
+
+- **Client**: Armazena informações dos clientes, como nome, telefone, CNPJ, e endereço completo.
+- **Users**: Representa os usuários do sistema, contendo dados como nome, e-mail, senha e função.
+- **Service Order**: Gerencia as ordens de serviço, relacionadas tanto aos clientes quanto aos usuários responsáveis.
+- **Task**: Define as tarefas associadas a cada ordem de serviço, incluindo o usuário designado e o setor responsável.
+
+Cada entidade possui chaves primárias e estrangeiras para manter a integridade dos relacionamentos e facilitar as consultas complexas no sistema.
+
+
 
 ## 👨‍💻 Integrantes da Equipe
 
