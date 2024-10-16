@@ -8,6 +8,9 @@ O desafio do quarto semestre consiste no desenvolvimento de uma sistema, chamado
 ## 👀 Demonstração do produto
 ➯ [Vídeo de demonstração](https://www.youtube.com/watch?v=8bnKvWPvFwc)
 
+## 📄 Backlog
+➯ Acesse o backlog completo [aqui](https://cold-spice-64e.notion.site/12128f34d09580f5a685f331ad284884?v=12128f34d09581d790f6000c6fa5996d&pvs=4)
+
 ## 📋 Requisitos
 #### ➯ Funcionais
 | Nº do requisito | Requisito do Parceiro                                                                                                                         |
