@@ -55,7 +55,7 @@ O desafio do quarto semestre consiste no desenvolvimento de uma sistema, chamado
 ## Modelo de Banco de Dados
 
 <p align="center">
-  <img src="resources/database-model.png" alt="Modelo de Banco de Dados" />
+  <img src="resources/db-model.png" alt="Modelo de Banco de Dados" />
 </p>
 
 O diagrama acima apresenta o modelo de banco de dados utilizado neste projeto. Ele foi gerado utilizando a ferramenta Vertabelo e é implementado com o PostgreSQL. Cada entidade possui as seguintes informações:
