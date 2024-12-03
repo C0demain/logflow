@@ -69,7 +69,7 @@ O diagrama acima apresenta o modelo de banco de dados utilizado neste projeto. E
 - **service-order-log**: Registra o histórico de mudanças nas ordens de serviço.
 - **task**: Define as tarefas associadas às ordens de serviço.
 - **users**: Armazena os dados dos usuários, incluindo setor e papéis.
-
+- **vehicles**: Armazena dados dos veículos, incluindo placa e rendimento.
 Cada entidade possui chaves primárias e estrangeiras para manter a integridade dos relacionamentos e facilitar as consultas complexas no sistema.
 
 
