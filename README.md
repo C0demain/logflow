@@ -6,7 +6,7 @@
 O desafio do quarto semestre consiste no desenvolvimento de uma sistema, chamado Logflow, que permita o acompanhamento de diversas ordens de serviços em diferentes setores e etapas durante o atendimento da empresa JJM Log
 
 ## 👀 Demonstração do produto
-➯ [Vídeo de demonstração](https://www.youtube.com/watch?v=8bnKvWPvFwc)
+➯ [Vídeo de demonstração](https://youtu.be/D8LDeAe5Wgo)
 
 ## 📄 Backlog
 ➯ Acesse o backlog completo [aqui](https://cold-spice-64e.notion.site/12128f34d09580f5a685f331ad284884?v=12128f34d09581d790f6000c6fa5996d&pvs=4)
