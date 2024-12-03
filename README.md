@@ -30,8 +30,7 @@ O desafio do quarto semestre consiste no desenvolvimento de uma sistema, chamado
 | RNF2                | Application Programming Interface (API)                    |
 | RNF3                | Permitir acesso para computadores e aparelhos celulares, sem comprometimento de funcionalidades |
 
-## 📅 Planejamento de Entregas
-![Cronograma de entregas](https://github.com/user-attachments/assets/1c817916-ba9b-40ab-9aa4-a6c9bb60ab3f)
+## [📅 Planejamento de Entregas](https://cold-spice-64e.notion.site/Sprint-Backlog-15128f34d095807e820af78613c60e9c?pvs=4)
 
 ## 🧰 Tecnologias utilizadas
 - [Next.js](https://nextjs.org)
